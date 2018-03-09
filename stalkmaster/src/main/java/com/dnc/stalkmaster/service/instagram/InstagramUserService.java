@@ -39,6 +39,10 @@ public class InstagramUserService extends BaseService {
         return pictureData;
     }
 
+    public void getNonFolowers(){
+
+    }
+
     public void getUserById(){
         String url = getUrl(GET_USER_BY_ID);
     }
